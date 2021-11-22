@@ -19,3 +19,20 @@ should be able to observe changes in the ViewModel. ViewModels usually expose th
      def lifecycle_version = "2.4.0"
      implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 
+# Implematation
+    
+   Create View Model Class: 
+   
+                    public class MainViewModel extends ViewModel {
+                         //body
+                         //acquire and keep the information that is necessary for an Activity or a Fragment
+                    }
+   
+   Create a object of View Model in Activity.which will provide view model for store and manage UI-related data: 
+                    
+                   //View Model life cycle aware .we pass (this).so, View Model can see the Activity
+                   MainViewModel mainViewModel = new ViewModelProvider(this).get(MainViewModel.class);
+                    
+   
+   
+
