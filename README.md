@@ -34,5 +34,7 @@ should be able to observe changes in the ViewModel. ViewModels usually expose th
                    MainViewModel mainViewModel = new ViewModelProvider(this).get(MainViewModel.class);
                     
    
-   
+# Reference
+
+  https://developer.android.com/topic/libraries/architecture/viewmodel
 
