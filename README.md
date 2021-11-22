@@ -11,7 +11,11 @@ should be able to observe changes in the ViewModel. ViewModels usually expose th
 
 # The lifecycle of a ViewModel 
 
+![viewmodel-lifecycle](https://user-images.githubusercontent.com/35636662/142910443-b98bfeea-fd07-4697-9c1c-1c1578888d6d.png)
 
+# Dependencies
 
-
+     #ViewModel 
+     def lifecycle_version = "2.4.0"
+     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 
